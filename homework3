@@ -1,0 +1,85 @@
+<html>
+<head>
+<style>
+button {
+    padding-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:20px;
+    margin:30px;
+    border: 3px solid rgba(10, 10, 10, 0.247);
+    width: 15%; 
+    height: 10%; 
+    color: black;  
+    border-radius: 10PX;
+    font-family: Impact;
+    transition: all .3s ease;
+}
+
+.one {
+background-color:aliceblue ;
+}
+.one:hover{
+	background-color:#FFFFFF;
+    color:#000000;
+    border:3px gray  solid;
+}
+
+.two {
+background-color:rgba(255, 153, 19, 0.356);
+}
+.two:hover{
+	background-color:#FFFFFF;
+    color:#000000;
+    border:3px rgba(255, 153, 19, 0.356) solid;
+}
+
+.three {
+background-color:rgba(5, 184, 79, 0.178);
+}
+.three:hover{
+	background-color:#FFFFFF;
+    color:#000000;
+    border:3px rgba(5, 184, 79, 0.178) solid;
+}
+
+.four {
+background-color:SkyBlue;
+}
+.four:hover{
+	background-color:#FFFFFF;
+    color:#000000;
+    border:3px SkyBlue solid;
+}
+
+.five {
+background-color:Blue;
+}
+.five:hover{
+	background-color:#FFFFFF;
+    color:#000000;
+    border:3px Blue solid;
+}
+
+.six {
+background-color:Magenta;
+}
+.six:hover{
+	background-color:#FFFFFF;
+    color:#000000;
+    border:3px Magenta solid;
+}
+
+</style>
+</head>
+<body>
+
+<button type="button"  class="one" >button1</button>
+<button type="button"  class="two">button2</button>
+<button type="button" class="three">button3</button>
+<button type="button" class="four">button4</button>
+<button type="button" class="five">button5</button>
+<button type="button" class="six">button6</button>
+
+</body>
+</html>
