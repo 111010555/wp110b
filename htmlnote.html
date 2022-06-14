@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML note</title>
+</head>
+<body style="background-color:#bfd3ccaf;" >
+    <div>
+    <h1>HTML note</h1>
+    <hr>
+    <h3>示範</h3>
+        <h3>1.標題</h3>
+        <p> < h1 >標題 < /h1 ></p>
+        <p> < h2 >標題 < /h2 ></p>
+        <p> < h3 >標題 < /h3 ></p>
+    <h3>示範</h3>
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <hr/>
+    <hr>
+    <h3>2.水平線</h3>
+        <p> < hr> </p>
+    <hr/>
+    <hr>
+    <h3>3.段落</h3>
+        <p> < p>...< /p> </p>
+    <hr/>
+    <hr>
+    <h3>4.換行</h3>
+        <p>< br> </p>
+    <hr/>
+    <hr>
+    <h3>5.文字效果</h3>
+        <ul>字體加粗
+            <li>< b> ...< /b></li>
+            <li>< strong> ...< /strong></li>
+        </ul>    
+        <ul>字下線
+            <li>< u> ...< /u></li>
+            <li>< ins> ...< /ins></li>
+        </ul>
+        <ul>傾斜
+            <li>< i> ...< /i></li>
+            <li>< em> ...< /em></li>
+        </ul>  
+        <ul>刪除線
+            <li>< s> ...< /s></li>
+            <li>< del> ...< /del></li>
+        </ul>    
+        <h3>示範</h3>
+        <strong>加粗</strong>
+        <br><i>傾斜</i></br>
+        <del>刪除線</del>
+    <hr/>
+    <hr>
+    <h3>6.路徑</h3>
+        <p> 絕對路徑:< img src="Users/xxx/projects/.../resource/../.." alt="錯誤時顯示" > </p>
+        <p> 相對路徑:< img src=".../resource/img/圖.png" alt="錯誤時顯示" > </p>
+    <hr/>
+    <hr>
+    <h3>7.標籤</h3>
+
+        <h3>(1)圖片</h3>
+        <p>程式碼:< img src="" alt="" > </p>
+        <ul>屬性
+            <li>src:路徑</li>
+            <li>alt:失敗</li>
+            <li>title:鼠標放置時出現的文字</li>
+            <li>width,height:寬,高</li>
+        </ul>
+    <h3>(2)音頻</h3>
+    <p>程式碼:< audio src="" controls autoplay loop > </p>
+    <ul>屬性
+            <li>src:路徑</li>
+            <li>controls:播放控制</li>
+            <li>autoplay:自動播放</li>
+            <li>loop:循環播放</li>
+    </ul>      
+    <h3>(2)連結</h3>
+    <p>程式碼:< a href="..." target=_self>連結< /a> </p>
+        <ul>屬性
+            <li>target:頁面打開方式</li>
+            <li>target=_self:當前窗口打開</li>
+            <li>target=_blank:新窗口打開</li>
+        </ul>
+        <h3>(4)表單</h3>
+        <h4>input</h4>
+    <p>程式碼:< input type=""></p>
+        <ul>屬性
+            <li>text:文本</li>
+            <ul>
+                <li>程式碼:< input type="text" placeholder="用戶名" name="" id=""></li>
+                <li>範例: <input type="text" placeholder="用戶名"> </li>
+            </ul>
+            <li>password:密碼</li>
+
+            <ul>
+                <li>程式碼:< input type="password" placeholder="密碼"></li>
+                <li>範例: <input type="password" placeholder="密碼"> </li>
+            </ul>
+            <li>radio:單選</li>
+            <ul>
+                <li>程式碼:
+                <br>< input type="radio" name="choose">yes</br>
+                <br>< input type="radio" name="choose">no</br></li>
+                <li>範例:<input type="radio" name="choose">yes
+                    <input type="radio" name="choose">no</li>
+            </ul>
+            <li>checkbox:多選</li>
+            <ul>
+                <li>程式碼:
+                <br>< input type="checkbox" checked>多選1</br>
+                <br>< input type="checkbox" checked>多選2</br></li>
+                <li>範例:<input type="checkbox" checked>多選1>yes
+                    <input type="checkbox" checked>多選2</li>
+            </ul>
+            <li>file:上傳文件</li>
+            <ul>
+                <li>程式碼:< input type="file" multiple></li>
+                <li>範例:<input type="file" multiple></li>
+            </ul>
+            <li>submit,reset,button:按鈕</li>
+            <ul>
+                <li>程式碼:
+                    <br>< input type="submit" value="註冊>"</br>
+                    <br>< input type="reset" value="重置>"</br>
+                    <br>< input type="button" value="普通按鈕>"</br></li>
+                    <li>範例:<br><input type="submit" value="註冊"</br>
+                        <br><input type="reset" value="重置"</br>
+                        <br><input type="button" value="普通按鈕"</br></li>
+            </ul>
+            </ul>
+            <h3>(5)button</h3>
+            <p>程式碼:< button>...< /button> </p>
+            <p>範例:<button>...</button> </p>
+            <h3>(6)select,option:前者為下拉菜單,後者為菜單中的每一項</h3>
+            <p>程式碼:< select name=""id="">
+                < option>蛋糕</option>
+                < option>糖果</option>
+                < option>飲料</option>
+                < /select> </p>
+            <p>範例:<select name="飲食"id="飲食">
+                <option>蛋糕</option>
+                <option>糖果</option>
+                <option>可樂</option>
+                </select></p>
+                <h3>(7)textarea:多行文字框</h3>
+                <p>程式碼:< textarea cols="?" rows="?">...< /textarea> </p>
+                <p>屬性:<li>cols:文本寬度</li>
+                    <li>rows:文本行數</li>
+                </p>
+                <p>範例:<textarea cols="10" rows="3">hiii
+                    你好
+                </textarea></p>
+        <h3>(8)列表</h3>
+        <p>屬性:<li>無順序列表:ul,li</li>
+         <li>有順序列表:ol,li</li>
+         <li>自定義列表:dl,dt,dd</li>
+        <p>程式碼:<br>< ul>< li>第一< /li>< li>第二< /li>< /ui></ul></p>
+        <br>< ol>< li>第一< /li>< li>第二< /li>< /ol></p></br>
+        <br>< dl>< dd>第一< /dd>< dt>第二< /dt>< /dl></p></br>
+
+        <p>範例:<br><ul><li>第一</li><li>第二</li></ui></ul></p>
+         <br><ol><li>第一</li><li>第二</li></ol></p>
+         <br><dl><dt>第一</dt><dd>第二</dd></dl></p></br>
+
+         <h3>(9)表格</h3>
+         屬性:<li>table:表格整體,可含多個tr</li>
+            <li>tr:每行表格,可含多個td</li>
+            <li>td:格,放內容</li>
+        <p>程式碼:<br>< table border="1" width="600" heigth="400">
+        <br>< tr>
+    <br>< td>性別< /td>
+    <br>< td>姓名< /td>
+    <br>< /tr>
+    <br>< tr>
+    <br>< td>男< /td>
+    <br>< td>林小明< /td>
+    <br>< /tr>
+    <br>< tr>
+    <br>< td>女< /td>
+    <br>< td>林曉美< /td>
+    <br>< /tr>
+    <br> < /table> </br> 
+    <p>範例:<table border="1" width="600" heigth="400">
+    <tr>
+    <td>性別</td>
+    <td>姓名</td>
+    </tr>
+    <tr>
+    <td>男</td>
+    <td>林小明</td>
+    </tr>
+    <tr>
+    <td>女</td>
+    <td>林曉美</td>
+    </tr>
+    </table>
+    <h3>(10)布局</h3>
+    <p>屬性:<li>div:一行顯示一個</li>
+        <li>spa:一行顯示多個</li>
+        <li>header:網頁頭部</li>
+        <li>footer:網頁底部</li>
+        <li>aside:網頁側邊</li></p>
+<hr/>
+</div>
+</html>
